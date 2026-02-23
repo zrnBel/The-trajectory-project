@@ -1,0 +1,68 @@
+# Qt Creator files
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*-build-*
+# Build folders
+debug/
+release/
+*.o
+*.exe
+*.dll
+*.a
+*.so
+Makefile
+Makefile.*
+# Qt temporary files
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.prl
+*_plugin_import.cpp
+
+Zenbook@DESKTOP-D4KRGOL MINGW64 ~/Desktop/TrajectoryProject (main)
+$ git init
+Initialized empty Git repository in C:/Users/Zenbook/Desktop/TrajectoryProject/.git/
+
+Zenbook@DESKTOP-D4KRGOL MINGW64 ~/Desktop/TrajectoryProject (master)
+$ git remote add origin https://github.com/RobBot1337/The-trajectory-project.git
+
+Zenbook@DESKTOP-D4KRGOL MINGW64 ~/Desktop/TrajectoryProject (master)
+$ cat > .gitignore << EOF
+> # Qt Creator files
+> *.pro.user
+> *.pro.user.*
+> CMakeLists.txt.user
+> CMakeLists.txt.user.*
+> *-build-*
+> # Build folders
+> debug/
+> release/
+> *.o
+> *.exe
+> *.dll
+> *.a
+> *.so
+> Makefile
+> Makefile.*
+> # Qt temporary files
+> *.moc
+> moc_*.cpp
+> moc_*.h
+> qrc_*.cpp
+> ui_*.h
+> *.qm
+> *.prl
+> *_plugin_import.cpp
+>
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+.DS_Store
