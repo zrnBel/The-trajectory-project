@@ -66,3 +66,7 @@ $ cat > .gitignore << EOF
 *.log
 *.cache
 .DS_Store
+build/
+*.exe
+*.o
+*.user
